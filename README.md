@@ -1,2 +1,3 @@
 # belajar-branch
-latihan dicoding
+ini adalah repo terbaru
+ 
