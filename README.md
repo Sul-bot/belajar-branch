@@ -1,27 +1,26 @@
-Untuk memperbaiki README.md dan memastikan perintahnya sesuai dengan file yang ada di dalam folder dashboard, kamu bisa menambahkan instruksi untuk berpindah direktori ke folder yang benar sebelum menjalankan perintah Streamlit. Berikut adalah revisi README.md yang sesuai:
 
-Proyek Analisis Data: Bike Sharing
 
-Deskripsi Proyek
+# Proyek Analisis Data: Bike Sharing
 
-Proyek ini bertujuan untuk menganalisis dataset Bike Sharing yang mencakup peminjaman sepeda selama beberapa tahun. Melalui analisis ini, kita dapat mengetahui pola penggunaan sepeda pada hari kerja dan akhir pekan, jam tersibuk, serta tren peminjaman sepeda sepanjang waktu.
+## Deskripsi Proyek
 
-Fitur Utama
+Proyek ini bertujuan untuk menganalisis dataset **Bike Sharing** yang mencakup peminjaman sepeda selama beberapa tahun. Melalui analisis ini, kita dapat mengetahui pola penggunaan sepeda pada hari kerja dan akhir pekan, jam tersibuk, serta tren peminjaman sepeda sepanjang waktu.
 
-	•	Total Peminjaman pada Januari 2010: Menampilkan total peminjaman sepeda di bulan Januari 2010.
-	•	Jam Teramai Sepanjang Tahun: Menunjukkan jam dengan peminjaman sepeda terbanyak sepanjang tahun.
-	•	Perbandingan Peminjaman Sepeda: Membandingkan rata-rata peminjaman sepeda antara hari kerja dan akhir pekan.
-	•	Tren Penyewaan Sepeda Harian: Visualisasi tren peminjaman sepeda harian dari dataset yang disediakan.
-	•	Distribusi Peminjaman Sepeda per Jam dan Bulan: Menggunakan histogram dan pie chart untuk menggambarkan distribusi peminjaman sepeda berdasarkan jam dan bulan.
+## Fitur Utama
 
-Instalasi
+- **Total Peminjaman pada Januari 2010:** Menampilkan total peminjaman sepeda di bulan Januari 2010.
+- **Jam Teramai Sepanjang Tahun:** Menunjukkan jam dengan peminjaman sepeda terbanyak sepanjang tahun.
+- **Perbandingan Peminjaman Sepeda:** Membandingkan rata-rata peminjaman sepeda antara hari kerja dan akhir pekan.
+- **Tren Penyewaan Sepeda Harian:** Visualisasi tren peminjaman sepeda harian dari dataset yang disediakan.
+- **Distribusi Peminjaman Sepeda per Jam dan Bulan:** Menggunakan histogram dan pie chart untuk menggambarkan distribusi peminjaman sepeda berdasarkan jam dan bulan.
 
-	1.	Buat environment baru menggunakan conda dan install dependencies:
+## Instalasi
 
-conda create --name bike-sharing python=3.11.4
-conda activate bike-sharing
-pip install streamlit pandas matplotlib numpy seaborn plotly
-
+1. Buat environment baru menggunakan `conda` dan install dependencies:
+   ```bash
+   conda create --name bike-sharing python=3.11.4
+   conda activate bike-sharing
+   pip install streamlit pandas matplotlib numpy seaborn plotly
 
 	2.	Clone repository atau salin file Python dan dataset ke local directory.
 	3.	Pindah ke folder dashboard untuk menjalankan aplikasi:
@@ -70,4 +69,3 @@ Hasil Analisis
 	•	Jam peminjaman sepeda paling ramai terjadi pada {peak_hour_12}.
 	•	Rata-rata peminjaman sepeda lebih tinggi pada hari kerja dibandingkan akhir pekan.
 
-Dengan menambahkan instruksi untuk pindah ke direktori dashboard, user akan lebih mudah mengikuti langkah-langkahnya sesuai dengan struktur file yang benar.
