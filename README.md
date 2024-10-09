@@ -1,76 +1,73 @@
+Untuk memperbaiki README.md dan memastikan perintahnya sesuai dengan file yang ada di dalam folder dashboard, kamu bisa menambahkan instruksi untuk berpindah direktori ke folder yang benar sebelum menjalankan perintah Streamlit. Berikut adalah revisi README.md yang sesuai:
 
----
+Proyek Analisis Data: Bike Sharing
 
-# Proyek Analisis Data: Bike Sharing
+Deskripsi Proyek
 
-## Deskripsi Proyek
+Proyek ini bertujuan untuk menganalisis dataset Bike Sharing yang mencakup peminjaman sepeda selama beberapa tahun. Melalui analisis ini, kita dapat mengetahui pola penggunaan sepeda pada hari kerja dan akhir pekan, jam tersibuk, serta tren peminjaman sepeda sepanjang waktu.
 
-Proyek ini bertujuan untuk menganalisis dataset **Bike Sharing** yang mencakup peminjaman sepeda selama beberapa tahun. Melalui analisis ini, kita dapat mengetahui pola penggunaan sepeda pada hari kerja dan akhir pekan, jam tersibuk, serta tren peminjaman sepeda sepanjang waktu.
+Fitur Utama
 
-## Fitur Utama
+	•	Total Peminjaman pada Januari 2010: Menampilkan total peminjaman sepeda di bulan Januari 2010.
+	•	Jam Teramai Sepanjang Tahun: Menunjukkan jam dengan peminjaman sepeda terbanyak sepanjang tahun.
+	•	Perbandingan Peminjaman Sepeda: Membandingkan rata-rata peminjaman sepeda antara hari kerja dan akhir pekan.
+	•	Tren Penyewaan Sepeda Harian: Visualisasi tren peminjaman sepeda harian dari dataset yang disediakan.
+	•	Distribusi Peminjaman Sepeda per Jam dan Bulan: Menggunakan histogram dan pie chart untuk menggambarkan distribusi peminjaman sepeda berdasarkan jam dan bulan.
 
-- **Total Peminjaman pada Januari 2010:** Menampilkan total peminjaman sepeda di bulan Januari 2010.
-- **Jam Teramai Sepanjang Tahun:** Menunjukkan jam dengan peminjaman sepeda terbanyak sepanjang tahun.
-- **Perbandingan Peminjaman Sepeda:** Membandingkan rata-rata peminjaman sepeda antara hari kerja dan akhir pekan.
-- **Tren Penyewaan Sepeda Harian:** Visualisasi tren peminjaman sepeda harian dari dataset yang disediakan.
-- **Distribusi Peminjaman Sepeda per Jam dan Bulan:** Menggunakan histogram dan pie chart untuk menggambarkan distribusi peminjaman sepeda berdasarkan jam dan bulan.
+Instalasi
 
-## Instalasi
+	1.	Buat environment baru menggunakan conda dan install dependencies:
 
-1. Buat environment baru menggunakan `conda` dan install dependencies:
-   ```bash
-   conda create --name bike-sharing python=3.11.4
-   conda activate bike-sharing
-   pip install streamlit pandas matplotlib numpy seaborn plotly
-   ```
+conda create --name bike-sharing python=3.11.4
+conda activate bike-sharing
+pip install streamlit pandas matplotlib numpy seaborn plotly
 
-2. Clone repository atau salin file Python dan dataset ke local directory.
 
-3. Jalankan aplikasi **Streamlit** menggunakan perintah berikut:
-   ```bash
-   streamlit run dashboard.py
-   ```
+	2.	Clone repository atau salin file Python dan dataset ke local directory.
+	3.	Pindah ke folder dashboard untuk menjalankan aplikasi:
 
-## File dan Dataset
+cd dashboard
 
-- `day.csv`: Dataset yang berisi informasi harian tentang peminjaman sepeda.
-- `hour.csv`: Dataset yang berisi informasi peminjaman sepeda per jam.
-- `dashboard.py`: Kode Python utama yang mengimplementasikan analisis data dan visualisasi menggunakan Streamlit.
 
-## Penggunaan
+	4.	Jalankan aplikasi Streamlit menggunakan perintah berikut:
 
-1. **Total Peminjaman pada Januari 2010**
-   - Menampilkan total peminjaman sepeda di bulan Januari 2010.
+streamlit run dashboard.py
 
-2. **Jam Teramai Sepanjang Tahun**
-   - Menampilkan jam dengan peminjaman sepeda paling banyak dalam format AM/PM.
 
-3. **Rata-rata Peminjaman pada Hari Kerja vs Akhir Pekan**
-   - Membandingkan rata-rata peminjaman sepeda pada hari kerja dan akhir pekan menggunakan bar chart.
 
-4. **Tren Penyewaan Sepeda Harian**
-   - Visualisasi tren peminjaman sepeda harian menggunakan line chart.
+File dan Dataset
 
-5. **Distribusi Peminjaman Sepeda**
-   - Histogram distribusi peminjaman sepeda per kategori seperti bulan, hari, dan kecepatan angin.
+	•	day.csv: Dataset yang berisi informasi harian tentang peminjaman sepeda.
+	•	hour.csv: Dataset yang berisi informasi peminjaman sepeda per jam.
+	•	dashboard.py: Kode Python utama yang mengimplementasikan analisis data dan visualisasi menggunakan Streamlit.
 
-6. **Korelasi Antar Variabel**
-   - Heatmap korelasi antar variabel dalam dataset.
+Penggunaan
 
-## Teknologi yang Digunakan
+	1.	Total Peminjaman pada Januari 2010
+	•	Menampilkan total peminjaman sepeda di bulan Januari 2010.
+	2.	Jam Teramai Sepanjang Tahun
+	•	Menampilkan jam dengan peminjaman sepeda paling banyak dalam format AM/PM.
+	3.	Rata-rata Peminjaman pada Hari Kerja vs Akhir Pekan
+	•	Membandingkan rata-rata peminjaman sepeda pada hari kerja dan akhir pekan menggunakan bar chart.
+	4.	Tren Penyewaan Sepeda Harian
+	•	Visualisasi tren peminjaman sepeda harian menggunakan line chart.
+	5.	Distribusi Peminjaman Sepeda
+	•	Histogram distribusi peminjaman sepeda per kategori seperti bulan, hari, dan kecepatan angin.
+	6.	Korelasi Antar Variabel
+	•	Heatmap korelasi antar variabel dalam dataset.
 
-- **Python**: Bahasa pemrograman utama.
-- **Streamlit**: Framework untuk membuat aplikasi web interaktif.
-- **Pandas**: Digunakan untuk manipulasi dan analisis data.
-- **Matplotlib** dan **Seaborn**: Untuk visualisasi data dalam bentuk grafik.
-- **Plotly**: Library untuk visualisasi interaktif.
+Teknologi yang Digunakan
 
-## Hasil Analisis
+	•	Python: Bahasa pemrograman utama.
+	•	Streamlit: Framework untuk membuat aplikasi web interaktif.
+	•	Pandas: Digunakan untuk manipulasi dan analisis data.
+	•	Matplotlib dan Seaborn: Untuk visualisasi data dalam bentuk grafik.
+	•	Plotly: Library untuk visualisasi interaktif.
 
-- Pada bulan Januari 2010, terdapat total peminjaman sebanyak **{jan_2010}** sepeda.
-- Jam peminjaman sepeda paling ramai terjadi pada **{peak_hour_12}**.
-- Rata-rata peminjaman sepeda lebih tinggi pada **hari kerja** dibandingkan akhir pekan.
+Hasil Analisis
 
----
+	•	Pada bulan Januari 2010, terdapat total peminjaman sebanyak {jan_2010} sepeda.
+	•	Jam peminjaman sepeda paling ramai terjadi pada {peak_hour_12}.
+	•	Rata-rata peminjaman sepeda lebih tinggi pada hari kerja dibandingkan akhir pekan.
 
-File **proyek_analisis_data.py** berisi analisis data utama yang memanfaatkan berbagai library Python untuk manipulasi data dan visualisasi interaktif.
+Dengan menambahkan instruksi untuk pindah ke direktori dashboard, user akan lebih mudah mengikuti langkah-langkahnya sesuai dengan struktur file yang benar.
