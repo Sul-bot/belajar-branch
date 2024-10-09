@@ -63,6 +63,6 @@ Proyek ini bertujuan untuk menganalisis dataset Bike Sharing yang mencakup pemin
 
 ## Hasil Analisis
 - Pada bulan Januari 2010, terdapat total peminjaman sebanyak `38189` sepeda.
-- Jam peminjaman sepeda paling ramai terjadi pada `4 PM`.
+- Jam peminjaman sepeda paling ramai terjadi pada `5 PM`.
 - Rata-rata peminjaman sepeda lebih tinggi pada hari kerja dibandingkan akhir pekan.
 
